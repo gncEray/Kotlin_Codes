@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
         val myNewArray = doubleArrayOf(1.0, 2.0, 3.0)
 
-        val mixedArray = arrayOf("Atil", 5)
+        val mixedArray = arrayOf("Eray", 5)
         println(mixedArray[0])
         println(mixedArray[1])
 
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
         myArrayList.add(200)
 
         val myMixedArrayList = ArrayList<Any>()
-        myMixedArrayList.add("Atil")
+        myMixedArrayList.add("Eray")
         myMixedArrayList.add(12.25)
         myMixedArrayList.add(true)
 
@@ -195,7 +195,6 @@ class MainActivity : AppCompatActivity() {
 
         //While Loop
         var j = 0
-
         while (j < 10) {
             println(j)
             j = j + 1
