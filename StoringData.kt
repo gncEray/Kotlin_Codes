@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             //oraya kaydediyor ve "age" keywordünü kullanıyor. Yukardaki get de burada put edileni çağırıyor
         }
     } //save ends
+    
     fun delete(view : View) {
         ageFromPreferences = sharedPreferences.getInt(“age”, -1)
 
