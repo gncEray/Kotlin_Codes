@@ -9,6 +9,14 @@ fun myMultiply(n1: Int, n2: Int) : Int {
     return result //or directly return n1 * n2
 }
 
+fun mySubtract(n1: Int, n2: Int) : Int {
+    return n1 - n2
+}
+
+fun mySubtract(n1: Int, n2: Int) : Double {
+    return n1 / n2
+}
+
 
 fun main() {
     mySum(3, 5)
