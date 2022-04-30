@@ -13,7 +13,7 @@ fun mySubtract(n1: Int, n2: Int) : Int {
     return n1 - n2
 }
 
-fun mySubtract(n1: Int, n2: Int) : Double {
+fun myDivision(n1: Int, n2: Int) : Double {
     return n1 / n2
 }
 
