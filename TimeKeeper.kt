@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         handler.post(runnable) //runnable'ı başlatan bu
         button.isEnabled = false
     } //start ends
+    
     fun stop(view : View) {
         handler.removeCallbacks(runnable) //geri çağırmayı iptal ediyor üstteki runnable
         number = 0
